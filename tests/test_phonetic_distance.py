@@ -4,10 +4,13 @@ import os
 import sys
 
 sys.path.append(os.path.join(os.path.dirname(__file__), '../'))
+# pylint: disable=import-error,wrong-import-position
 from phonetic_distance import phonetic_distance
 
 class TestPhoneticDistance(unittest.TestCase):
+    """Unit test"""
     def test_phonetic_distance(self):
+        """Unit test"""
         with open("tests/test_cases.txt", "r", encoding="utf-8") as f:
             for line in f:
                 clean = line.split("#")[0].strip()

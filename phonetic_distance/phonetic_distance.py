@@ -8,6 +8,7 @@ import cutlet
 katsu = cutlet.Cutlet()
 
 def normalize(word, lang):
+    """Normalize the character set, currently romanize japanese characters"""
     if lang == "ja" or lang is None:
         normalized = katsu.slug(word)
         if normalized:

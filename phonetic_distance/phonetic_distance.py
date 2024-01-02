@@ -2,9 +2,10 @@
 from itertools import product
 from phonetic_fr import phonetic as phonetic_fr
 from metaphone import doublemetaphone
-from Levenshtein import distance
+import pylev
 import cutlet
 
+distance = pylev.levenshtein
 katsu = cutlet.Cutlet()
 
 def normalize(word, lang):

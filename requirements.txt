@@ -1,6 +1,5 @@
 phonetic_fr @ git+https://github.com/gaspardpetit/phonetic_fr-py.git
 metaphone
-Levenshtein
+pylev @ git+https://github.com/toastdriven/pylev.git
 cutlet
-mecab-python3
 unidic-lite

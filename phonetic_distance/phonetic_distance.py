@@ -108,16 +108,9 @@ def phonetic_distance(word_a:str, word_b:str, lang:str = None):
 
 def main():
     """Samples"""
-    lang = "en"
-    word_a = "Gilles"
-    word_b = "Jill"
-
-    print(phonetic_distance("Día", "Noche", "es"))
-
-    print(phonetic(word_a, lang))
-    print(phonetic(word_b, lang))
-    print(phonetic_distance(word_a, word_b, lang))
-    print(phonetic_distance(word_a, word_b))
+    print(phonetic_distance("Gilles", "Jill"))
+    print(phonetic_distance("Gilles", "Bill"))
+    print(phonetic_distance("Gilles", "Robert"))
 
 if __name__ == '__main__':
     main()

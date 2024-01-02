@@ -65,7 +65,7 @@ def phonetic_distance_any(word_a:str, word_b:str):
         phone_a = PHONETIC[method](word_a)
         phone_b = PHONETIC[method](word_b)
         if len(phone_a) > 0 and len(phone_b)  > 0:
-            score = min([distance(a, b) for a, b in product(phone_a, phone_b)])
+            score = min(distance(a, b) for a, b in product(phone_a, phone_b))
             if best_score is None or score < best_score:
                 best_score = score
                 if best_score == 0:
@@ -96,15 +96,15 @@ def phonetic_distance(word_a:str, word_b:str, lang:str = None):
     """
     if lang is None:
         return phonetic_distance_any(word_a, word_b)
-    else:
-        word_a = normalize(word_a, lang)
-        word_b = normalize(word_b, lang)
-        phone_a = phonetic(word_a, lang)
-        phone_b = phonetic(word_b, lang)
-        if len(phone_a) > 0 and len(phone_b)  > 0:
-            return min([distance(a, b) for a, b in product(phone_a, phone_b)])
-        else:
-            return None
+
+    word_a = normalize(word_a, lang)
+    word_b = normalize(word_b, lang)
+    phone_a = phonetic(word_a, lang)
+    phone_b = phonetic(word_b, lang)
+    if len(phone_a) > 0 and len(phone_b)  > 0:
+        return min(distance(a, b) for a, b in product(phone_a, phone_b))
+
+    return None
 
 def main():
     """Samples"""

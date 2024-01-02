@@ -1,6 +1,7 @@
+"""Package Setup"""
 from setuptools import setup, find_packages
 
-VERSION = '1.0.0' 
+VERSION = '1.0.0'
 DESCRIPTION = 'Computes a phonetic distance between two words'
 LONG_DESCRIPTION = 'Computes a phonetic distance between two words'
 

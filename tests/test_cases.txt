@@ -1,0 +1,250 @@
+# lang word_a word_b score_lang score_any
+
+# English
+# Similar
+en apple ample 1 1
+en cat cot 0 0
+en sun son 0 0
+en bear bare 0 0
+en meet meat 0 0
+en pear pair 0 0
+en write right 0 0
+en flower flour 0 0
+en two to 0 0
+en peace piece 0 0
+en sea see 0 0
+en night knight 0 0
+en break brake 0 0
+en mail male 0 0
+en blue blew 0 0
+en sail sale 0 0
+en stair stare 0 0
+en road rode 0 0
+en hair hare 0 0
+en sent scent 0 0
+#Different
+en Happy Sad 2 2
+en Hot Cold 2 2
+en Big Small 3 3
+en Fast Slow 2 2
+en High Low 2 2
+en Light Dark 3 3
+en Loud Quiet 1 1
+en Old New 3 3
+en Rich Poor 2 2
+en Thick Thin 1 1
+en Strong Weak 4 4
+en Young Old 2 2
+en Empty Full 4 4
+en Brave Cowardly 3 3
+en Clean Dirty 3 3
+en Easy Difficult 5 5
+en Wet Dry 2 2
+en Near Far 1 1
+en Alive Dead 3 3
+en Sweet Sour 1 1
+
+# French
+# Similar
+fr été hétéro 3 2
+fr chat chaud 1 0
+fr soleil sommeil 1 1
+fr mère mer 1 0
+fr fête fait 2 0
+fr pain pin 0 0
+fr rouge roue 1 1
+fr fleur pleur 1 1
+fr deux dix 2 0
+fr paix poids 1 1
+fr ciel scie 2 1
+fr nuit nu 1 1
+fr brique break 2 0
+fr maille mâle 1 0
+fr bleu bœuf 2 2
+fr saule sale 1 0
+fr étoile étal 2 0
+fr route rôde 2 0
+fr chair cher 3 0
+fr cent sent 0 0
+# Different
+fr Bonjour Bonsoir 2 1
+fr Soleil Lune 5 2
+fr Chat Chien 2 1
+fr Jour Nuit 3 2
+fr Mer Terre 2 1
+fr Petit Grand 4 3
+fr Main Pied 2 2
+fr Femme Homme 2 1
+fr Blanc Noir 4 3
+fr Jeune Vieux 3 3
+fr Riche Pauvre 4 3
+fr Rapide Lent 4 2
+fr Doux Fort 2 2
+fr Douleur Plaisir 6 2
+fr Haut Bas 2 2
+fr Avant Après 3 3
+fr Aller Venir 5 2
+fr Oui Non 3 2
+fr Trouver Perdre 5 2
+fr Haut Bas 2 2
+
+# German
+# Similar
+de de Apfel 4 4
+de de Hund 2 2
+de de Sonne 2 2
+de de Mutter 2 2
+de de Fest 2 2
+de de Brot 2 2
+de de Rot 1 1
+de de Blume 3 3
+de de zwei 1 1
+de de Pferd 3 3
+de de Seele 2 2
+de de Nacht 2 2
+de de Brücke 3 3
+de de Mail 2 2
+de de Blau 2 2
+de de Saal 2 2
+de de Stern 3 3
+de de Straße 3 3
+de de Haar 2 2
+de de Zent 2 2
+# Different
+de Tag Nacht 2 2
+de Sommer Winter 3 3
+de Hund Katze 3 3
+de Haus Wohnung 4 4
+de Groß Klein 2 2
+de Neu Alt 3 3
+de Gut Schlecht 2 2
+de Hell Dunkel 3 3
+de Mann Frau 2 2
+de Jung Alt 2 2
+de Schnell Langsam 4 4
+de Leicht Schwer 3 3
+de Warm Kalt 3 3
+de Kurz Lang 3 3
+de Oben Unten 2 2
+de Anfang Ende 3 3
+de Nah Fern 2 2
+de Richtig Falsch 4 4
+de Voll Leer 2 2
+de Laut Leise 1 1
+
+# Spanish
+# Similar
+es sol suelo 0 0
+es gato gusto 1 1
+es madre padre 1 1
+es fuego juego 1 1
+es fiesta fiesto 0 0
+es pan pelo 1 1
+es rojo reloj 1 1
+es flor furor 1 1
+es dos tos 0 0
+es paz paus 0 0
+es cielo cieno 1 1
+es noche nove 1 1
+es bronce broche 2 2
+es calle callejón 2 2
+es azul ala 1 1
+es sal sol 0 0
+es estrella estrellado 1 1
+es ruta rueda 0 0
+es pelo pelo 0 0
+es cien sien 0 0
+# Different
+es Día Noche 2 2
+es Verano Invierno 2 2
+es Perro Gato 2 2
+es Casa Apartamento 7 7
+es Grande Pequeño 3 3
+es Nuevo Viejo 2 2
+es Bueno Malo 2 2
+es Claro Oscuro 3 3
+es Hombre Mujer 2 2
+es Joven Viejo 2 2
+es Rápido Lento 2 2
+es Ligero Pesado 3 3
+es Cálido Frío 3 3
+es Corto Largo 2 2
+es Arriba Abajo 2 2
+es Principio Fin 4 4
+es Cerca Lejos 3 3
+es Derecha Izquierda 4 4
+es Lleno Vacío 2 2
+es Fuerte Débil 3 3
+
+# Italian
+# Similar
+it sole suole 0 0
+it gatto gola 1 1
+it madre padre 1 1
+it fuoco gioco 1 1
+it festa feste 0 0
+it pane pene 0 0
+it rosso razzo 0 0
+it fiore fuori 0 0
+it due tu 0 0
+it pace pece 0 0
+it cielo cieco 1 1
+it notte note 0 0
+it bronzo branco 1 1
+it mail mal 0 0
+it blu bu 1 1
+it sale sala 0 0
+it stella stallo 0 0
+it strada strofa 1 1
+it capello cavallo 1 1
+it cento sento 0 0
+# Different
+it Giorno Notte 3 3
+it Estate Inverno 4 4
+it Cane Gatto 1 1
+it Casa Appartamento 7 7
+it Grande Piccolo 4 4
+it Nuovo Vecchio 2 2
+it Buono Cattivo 3 3
+it Chiaro Scuro 1 1
+it Uomo Donna 2 2
+it Giovane Vecchio 2 2
+it Veloce Lento 3 3
+it Leggero Pesante 4 4
+it Caldo Freddo 2 2
+it Corto Lungo 3 3
+it Su Giù 1 1
+it Inizio Fine 2 2
+it Vicino Lontano 3 3
+it Destra Sinistra 2 2
+it Pieno Vuoto 2 2
+it Forte Debole 3 3
+
+
+# Japanese
+# Similar
+ja じゃね じゃあね 0 0
+ja まだ また 1 0
+
+# Different
+ja 朝 夜 4 1
+ja 夏 冬 4 3
+ja 犬 猫 4 2
+ja 家 アパート 8 6
+ja 大きい 小さい 5 2
+ja 新しい 古い 6 3
+ja 良い 悪い 3 1
+ja 明るい 暗い 3 1
+ja 男 女 4 2
+ja 若い 老いた 2 1
+ja 速い 遅い 3 2
+ja 軽い 重い 4 2
+ja 暖かい 寒い 6 4
+ja 短い 長い 5 2
+ja 上 下 5 2
+ja 始まり 終わり 4 3
+ja 近い 遠い 5 2
+ja 右 左 4 3
+ja 満員 空 5 4
+ja 強い 弱い 3 2
+

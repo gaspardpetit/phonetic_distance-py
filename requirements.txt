@@ -1,0 +1,6 @@
+phonetic_fr @ git+https://github.com/gaspardpetit/phonetic_fr-py.git
+metaphone
+Levenshtein
+cutlet
+mecab-python3
+unidic-lite

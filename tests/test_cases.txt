@@ -90,26 +90,25 @@ fr Haut Bas 2 2
 
 # German
 # Similar
-de de Apfel 4 4
-de de Hund 2 2
-de de Sonne 2 2
-de de Mutter 2 2
-de de Fest 2 2
-de de Brot 2 2
-de de Rot 1 1
-de de Blume 3 3
-de de zwei 1 1
-de de Pferd 3 3
-de de Seele 2 2
-de de Nacht 2 2
-de de Brücke 3 3
-de de Mail 2 2
-de de Blau 2 2
-de de Saal 2 2
-de de Stern 3 3
-de de Straße 3 3
-de de Haar 2 2
-de de Zent 2 2
+de Affe Apfel 2 2
+de Hand Hund 0 0
+de Zone Sonne 0 0
+de Motor Mutter 0 0
+de Boot Brot 1 1
+de Rat Rot 0 0
+de Brummen Blume 2 2
+de drei zwei 2 2
+de Pfarrer Pferd 1 1
+de Zelle Seele 0 0
+de Nackt Nacht 0 0
+de Bruch Brücke 0 0
+de Mal Mail 0 0
+de Bau Blau 1 1
+de Salz Saal 1 1
+de Sturm Stern 1 1
+de Stroh Straße 1 1
+de Hase Haar 1 1
+de Zehnt Zent 0 0
 # Different
 de Tag Nacht 2 2
 de Sommer Winter 3 3
